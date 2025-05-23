@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Lobster&family=Permanent+Marker&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100vh;
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
+.sidebar {
+    background-color: rgb(48, 158, 248);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 30% 15%;
+    gap: 50px;
+}
+.one {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.one > label {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.two {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20%;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    margin: 10px;
+}
+.icon > label {
+    color: white;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.three {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33.3%;
+}
+.main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+header {
+    box-shadow: 0 0 10px rgb(163, 150, 150);
+}
